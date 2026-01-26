@@ -1,0 +1,65 @@
+# Configuración del sitio MkDocs
+site_name: Documentación MkDocs
+site_description: Guía paso a paso para crear, configurar y desplegar un sitio MkDocs en GitHub Pages
+site_author: Iñigo Durán Sanz
+site_url: https://inigompare.github.io/Proyecto-MKDOCS/
+
+# Repositorio
+repo_name: Proyecto-MKDOCS
+repo_url: https://github.com/inigompare/Proyecto-MKDOCS
+
+# Tema Material
+theme:
+  name: material
+  language: es
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Cambiar a modo oscuro
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Cambiar a modo claro
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.top
+    - content.code.copy
+    - content.tabs.link
+  icon:
+    repo: fontawesome/brands/github
+
+# Extensiones de Markdown
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - attr_list
+  - md_in_html
+  - tables
+
+# Navegación del sitio
+nav:
+  - Inicio: index.md
+  - 1. Preparación del Entorno: prerrequisitos.md
+  - 2. Configuración del Proyecto: estructura.md
+  - 3. Troubleshooting (Errores): problemas.md
+  - 4. Conclusiones: conclusiones.md
+
+# Copyright
+copyright: Copyright &copy; 2026 - ASIR ILERNA
