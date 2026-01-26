@@ -2,11 +2,11 @@
 site_name: Documentación MkDocs
 site_description: Guía paso a paso para crear, configurar y desplegar un sitio MkDocs en GitHub Pages
 site_author: Iñigo Durán Sanz
-site_url: https://inigompare.github.io/Proyecto-MKDOCS/
+site_url: https://inigompare.github.io/ProyectoMKDOCS/
 
 # Repositorio
 repo_name: Proyecto-MKDOCS
-repo_url: https://github.com/inigompare/Proyecto-MKDOCS
+repo_url: https://github.com/inigompare/ProyectoMKDOCS
 
 # Tema Material
 theme:
