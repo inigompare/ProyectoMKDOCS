@@ -116,7 +116,8 @@ Durante este proyecto he practicado las siguientes competencias del ciclo ASIR:
 ### Tutoriales Recomendados
 
 ??? info "Recursos Adicionales"
-**Videos:**
+
+    **Videos:**
 
     - [MkDocs Tutorial - TechWorld with Nana](https://www.youtube.com/watch?v=Q-YA_dA8C20)
     - [Git and GitHub for Beginners - freeCodeCamp](https://www.youtube.com/watch?v=RGOj5yH7evk)
