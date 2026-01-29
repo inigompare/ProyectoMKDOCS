@@ -8,6 +8,43 @@ site_url: https://inigompare.github.io/ProyectoMKDOCS/
 repo_name: Proyecto-MKDOCS
 repo_url: https://github.com/inigompare/ProyectoMKDOCS
 
+# Plugin de internacionalización
+plugins:
+  - search
+  - i18n:
+      docs_structure: suffix
+      fallback_to_default: true
+      reconfigure_material: true
+      reconfigure_search: true
+      languages:
+        - locale: es
+          default: true
+          name: Español
+          build: true
+          site_name: Documentación MkDocs
+          site_description: Guía paso a paso para crear, configurar y desplegar un sitio MkDocs
+          nav_translations:
+            Inicio: Inicio
+            1. Preparación del Entorno: 1. Preparación del Entorno
+            2. Configuración del Proyecto: 2. Configuración del Proyecto
+            3. Troubleshooting (Errores): 3. Troubleshooting (Errores)
+            4. Bitácora SSH: 4. Bitácora SSH
+            5. Conclusiones: 5. Conclusiones
+            🗒️. Control de Procesos UNIX: 🗒️. Control de Procesos UNIX
+        - locale: en
+          name: English
+          build: true
+          site_name: MkDocs Documentation
+          site_description: Step by step guide to create, configure and deploy an MkDocs site
+          nav_translations:
+            Inicio: Home
+            1. Preparación del Entorno: 1. Environment Setup
+            2. Configuración del Proyecto: 2. Project Configuration
+            3. Troubleshooting (Errores): 3. Troubleshooting (Errors)
+            4. Bitácora SSH: 4. SSH Log
+            5. Conclusiones: 5. Conclusions
+            🗒️. Control de Procesos UNIX: 🗒️. UNIX Process Control
+
 # Tema Material
 theme:
   name: material
@@ -26,7 +63,6 @@ theme:
         icon: material/brightness-4
         name: Cambiar a modo claro
   features:
-    - navigation.instant
     - navigation.tracking
     - navigation.top
     - content.code.copy
@@ -69,3 +105,13 @@ nav:
 
 # Copyright
 copyright: Copyright &copy; 2026 - ASIR ILERNA
+
+# Extra para SEO (hreflang automático)
+extra:
+  alternate:
+    - name: Español
+      link: /
+      lang: es
+    - name: English
+      link: /en/
+      lang: en
