@@ -76,7 +76,8 @@ para modificarlas. Al instalar paquetes de Python de forma global,
 ??? tip "Consejo para VS Code"
 Si usas VS Code, puedes configurar el terminal integrado para que abra PowerShell
  con permisos de administrador por defecto. Sinembargo, esto no es recomendable
- por seguridad. Es mejor abrir una terminal externa cuando necesites permisos elevados.
+ por seguridad. Es mejor abrir una terminal externa cuando necesites
+ permisos elevados.
 
 ---
 
