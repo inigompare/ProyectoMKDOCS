@@ -10,7 +10,8 @@ Esta es la sección más importante de la documentación. Aquí documento **los 
 
 ### Descripción del Error
 
-Al intentar instalar paquetes con `pip` o ejecutar ciertos comandos de administración, PowerShell mostraba el siguiente error:
+Al intentar instalar paquetes con `pip` o ejecutar ciertos comandos
+de administración, PowerShell mostraba el siguiente error:
 
 !!! failure "Error: La operación solicitada requiere elevación"
 
@@ -29,9 +30,10 @@ Acceso denegado: 'C:\Program Files\Python312\Lib\site-packages\...'
 
 ### Análisis del Problema
 
-Este error ocurre porque Windows protege las carpetas del sistema (como `C:\Program Files\`) y requiere **permisos de
-administrador** para modificarlas. Al instalar paquetes de Python de forma global, `pip` intenta escribir en estas carpetas
-protegidas.
+Este error ocurre porque Windows protege las carpetas del sistema
+(como `C:\Program Files\`) y requiere **permisos de
+administrador** para modificarlas. Al instalar paquetes de Python
+de forma global, `pip` intenta escribir en estas carpetas protegidas.
 
 ### Solución
 
@@ -47,7 +49,8 @@ protegidas.
 
 === "Opción B: Instalación por Usuario"
 
-    Si no tienes permisos de administrador, puedes instalar paquetes solo para tu usuario:
+    Si no tienes permisos de administrador, puedes instalar paquetes
+    solo para tu usuario:
 
     ```powershell
     pip install --user mkdocs-material
@@ -71,8 +74,10 @@ protegidas.
     ```
 
 ??? tip "Consejo para VS Code"
-Si usas VS Code, puedes configurar el terminal integrado para que abra PowerShell con permisos de administrador por defecto. Sin
-embargo, esto no es recomendable por seguridad. Es mejor abrir una terminal externa cuando necesites permisos elevados.
+Si usas VS Code, puedes configurar el terminal integrado para que abra
+PowerShell con permisos de administrador por defecto. Sinembargo,
+esto no es recomendable por seguridad. Es mejor abrir una terminal externa
+cuando necesites permisos elevados.
 
 ---
 
@@ -80,7 +85,8 @@ embargo, esto no es recomendable por seguridad. Es mejor abrir una terminal exte
 
 ### Descripción del Error
 
-Al ejecutar `mkdocs serve`, el sistema mostraba un error de parsing en el archivo de configuración:
+Al ejecutar `mkdocs serve`, el sistema mostraba un error de parsing en
+el archivo de configuración:
 
 !!! failure "Error: YAML Syntax Error"
 `     ERROR   -  Config file 'mkdocs.yml' could not be loaded:
@@ -92,9 +98,9 @@ Al ejecutar `mkdocs serve`, el sistema mostraba un error de parsing en el archiv
 
 ### Análisis del Problema
 
-Revisando el archivo `mkdocs.yml`, descubrí que había cometido un error grave: **había
-mezclado comandos de SSH y configuración
-YAML en el mismo archivo**. Además, la indentación era inconsistente.
+Revisando el archivo `mkdocs.yml`, descubrí que había cometido un error grave:
+**había mezclado comandos de SSH y configuración YAML en el mismo archivo**.
+Además, la indentación era inconsistente.
 
 El archivo corrupto se veía así:
 
@@ -114,7 +120,8 @@ nav:
 ### Solución
 
 !!! success "Solución: Limpiar y Formatear Correctamente"
-El archivo YAML debe contener **solo configuración**, no comandos. Además, la indentación debe ser consistente.
+El archivo YAML debe contener **solo configuración**, no comandos.
+Además, la indentación debe ser consistente.
 
     ```yaml title="✅ mkdocs.yml (CORRECTO)"
     site_name: Mi Proyecto
@@ -146,7 +153,8 @@ El archivo YAML debe contener **solo configuración**, no comandos. Además, la 
     2. Busca "Toggle Render Whitespace"
     3. Los espacios aparecerán como puntos (·) y los tabs como flechas (→)
 
-    También puedes configurar VS Code para convertir tabs a espacios automáticamente en archivos YAML.
+    También puedes configurar VS Code para convertir tabs a espacios
+    automáticamente en archivos YAML.
 
 ---
 
@@ -154,7 +162,8 @@ El archivo YAML debe contener **solo configuración**, no comandos. Además, la 
 
 ### Descripción del Error
 
-Después de ejecutar `mkdocs gh-deploy`, la página de GitHub Pages mostraba un **error 404** o no se actualizaba con los últimos cambios.
+Después de ejecutar `mkdocs gh-deploy`, la página de GitHub Pages mostraba
+un **error 404** o no se actualizaba con los últimos cambios.
 
 !!! failure "Error: Página No Encontrada (404)"
 Al acceder a `https://tu-usuario.github.io/Proyecto-MKDOCS/` aparecía:
@@ -233,11 +242,13 @@ mkdocs gh-deploy
 
 ### Descripción del Problema
 
-Inicialmente, los archivos `.md` estaban prácticamente vacíos o solo contenían texto plano sin formato. El resultado era una web funcional pero visualmente pobre.
+Inicialmente, los archivos `.md` estaban prácticamente vacíos o solo contenían
+texto plano sin formato. El resultado era una web funcional pero visualmente pobre.
 
 ### Análisis
 
-El problema era la falta de conocimiento sobre las capacidades de **Material for MkDocs**. No estaba aprovechando:
+El problema era la falta de conocimiento sobre las capacidades de **Material for MkDocs**.
+No estaba aprovechando:
 
 - Admonitions (alertas de colores)
 - Bloques de código con resaltado de sintaxis
