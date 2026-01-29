@@ -3,6 +3,7 @@ site_name: Documentación MkDocs
 site_description: Guía paso a paso para crear, configurar y desplegar un sitio MkDocs en GitHub Pages
 site_author: Iñigo Durán Sanz
 site_url: https://inigompare.github.io/ProyectoMKDOCS/
+use_directory_urls: true
 
 # Repositorio
 repo_name: Proyecto-MKDOCS
@@ -20,6 +21,7 @@ plugins:
         - locale: es
           default: true
           name: Español
+          link: /
           build: true
           site_name: Documentación MkDocs
           site_description: Guía paso a paso para crear, configurar y desplegar un sitio MkDocs
@@ -33,6 +35,7 @@ plugins:
             🗒️. Control de Procesos UNIX: 🗒️. Control de Procesos UNIX
         - locale: en
           name: English
+          link: /en/
           build: true
           site_name: MkDocs Documentation
           site_description: Step by step guide to create, configure and deploy an MkDocs site
