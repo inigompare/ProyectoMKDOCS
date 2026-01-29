@@ -1,32 +1,30 @@
 
 <!doctype html>
-<html lang="en" class="no-js">
+<html lang="zh" class="no-js">
   <head>
     
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="Step by step guide to create, configure and deploy an MkDocs site">
+        <meta name="description" content="创建、配置和部署 MkDocs 站点的分步指南">
       
       
         <meta name="author" content="Iñigo Durán Sanz">
       
       
-        <link rel="canonical" href="https://inigompare.github.io/ProyectoMKDOCS/en/conclusiones/">
+        <link rel="canonical" href="https://inigompare.github.io/ProyectoMKDOCS/zh/nuevo_tema/">
       
       
-        <link rel="prev" href="../bitacora_ssh/">
+        <link rel="prev" href="../conclusiones/">
       
-      
-        <link rel="next" href="../nuevo_tema/">
       
       
         
-          <link rel="alternate" href="../../conclusiones/" hreflang="es">
+          <link rel="alternate" href="../../nuevo_tema/" hreflang="es">
         
-          <link rel="alternate" href="./" hreflang="en">
+          <link rel="alternate" href="../../en/nuevo_tema/" hreflang="en">
         
-          <link rel="alternate" href="../../zh/conclusiones/" hreflang="zh">
+          <link rel="alternate" href="./" hreflang="zh">
         
       
       
@@ -35,7 +33,7 @@
     
     
       
-        <title>5. Conclusions - MkDocs Documentation</title>
+        <title>🗒️. UNIX 进程控制 - MkDocs 文档</title>
       
     
     
@@ -86,8 +84,8 @@
     <div data-md-component="skip">
       
         
-        <a href="#conclusions" class="md-skip">
-          Skip to content
+        <a href="#unix-control-de-procesos-y-tareas-tarea-personal" class="md-skip">
+          跳转至
         </a>
       
     </div>
@@ -101,8 +99,8 @@
   
 
 <header class="md-header md-header--shadow" data-md-component="header">
-  <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="../" title="MkDocs Documentation" class="md-header__button md-logo" aria-label="MkDocs Documentation" data-md-component="logo">
+  <nav class="md-header__inner md-grid" aria-label="页眉">
+    <a href="../" title="MkDocs 文档" class="md-header__button md-logo" aria-label="MkDocs 文档" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -116,13 +114,13 @@
       <div class="md-header__ellipsis">
         <div class="md-header__topic">
           <span class="md-ellipsis">
-            MkDocs Documentation
+            MkDocs 文档
           </span>
         </div>
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              5. Conclusions
+              🗒️. UNIX 进程控制
             
           </span>
         </div>
@@ -162,26 +160,26 @@
       <div class="md-header__option">
   <div class="md-select">
     
-    <button class="md-header__button md-icon" aria-label="Select language">
+    <button class="md-header__button md-icon" aria-label="选择当前语言">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m12.87 15.07-2.54-2.51.03-.03A17.5 17.5 0 0 0 14.07 6H17V4h-7V2H8v2H1v2h11.17C11.5 7.92 10.44 9.75 9 11.35 8.07 10.32 7.3 9.19 6.69 8h-2c.73 1.63 1.73 3.17 2.98 4.56l-5.09 5.02L4 19l5-5 3.11 3.11zM18.5 10h-2L12 22h2l1.12-3h4.75L21 22h2zm-2.62 7 1.62-4.33L19.12 17z"/></svg>
     </button>
     <div class="md-select__inner">
       <ul class="md-select__list">
         
           <li class="md-select__item">
-            <a href="../../conclusiones/" hreflang="es" class="md-select__link">
+            <a href="../../nuevo_tema/" hreflang="es" class="md-select__link">
               Español
             </a>
           </li>
         
           <li class="md-select__item">
-            <a href="./" hreflang="en" class="md-select__link">
+            <a href="../../en/nuevo_tema/" hreflang="en" class="md-select__link">
               English
             </a>
           </li>
         
           <li class="md-select__item">
-            <a href="../../zh/conclusiones/" hreflang="zh" class="md-select__link">
+            <a href="./" hreflang="zh" class="md-select__link">
               中文
             </a>
           </li>
@@ -202,16 +200,16 @@
   <label class="md-search__overlay" for="__search"></label>
   <div class="md-search__inner" role="search">
     <form class="md-search__form" name="search">
-      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <input type="text" class="md-search__input" name="query" aria-label="搜索" placeholder="搜索" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
       <label class="md-search__icon md-icon" for="__search">
         
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
         
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
       </label>
-      <nav class="md-search__options" aria-label="Search">
+      <nav class="md-search__options" aria-label="查找">
         
-        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+        <button type="reset" class="md-search__icon md-icon" title="清空当前内容" aria-label="清空当前内容" tabindex="-1">
           
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
         </button>
@@ -222,7 +220,7 @@
       <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
         <div class="md-search-result" data-md-component="search-result">
           <div class="md-search-result__meta">
-            Initializing search
+            正在初始化搜索引擎
           </div>
           <ol class="md-search-result__list" role="presentation"></ol>
         </div>
@@ -234,7 +232,7 @@
     
     
       <div class="md-header__source">
-        <a href="https://github.com/inigompare/ProyectoMKDOCS" title="Go to repository" class="md-source" data-md-component="source">
+        <a href="https://github.com/inigompare/ProyectoMKDOCS" title="前往仓库" class="md-source" data-md-component="source">
   <div class="md-source__icon md-icon">
     
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M173.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M252.8 8C114.1 8 8 113.3 8 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C436.2 457.8 504 362.9 504 252 504 113.3 391.5 8 252.8 8M105.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
@@ -268,19 +266,19 @@
 
 
 
-<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+<nav class="md-nav md-nav--primary" aria-label="导航栏" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="../" title="MkDocs Documentation" class="md-nav__button md-logo" aria-label="MkDocs Documentation" data-md-component="logo">
+    <a href="../" title="MkDocs 文档" class="md-nav__button md-logo" aria-label="MkDocs 文档" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
 
     </a>
-    MkDocs Documentation
+    MkDocs 文档
   </label>
   
     <div class="md-nav__source">
-      <a href="https://github.com/inigompare/ProyectoMKDOCS" title="Go to repository" class="md-source" data-md-component="source">
+      <a href="https://github.com/inigompare/ProyectoMKDOCS" title="前往仓库" class="md-source" data-md-component="source">
   <div class="md-source__icon md-icon">
     
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M173.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M252.8 8C114.1 8 8 113.3 8 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C436.2 457.8 504 362.9 504 252 504 113.3 391.5 8 252.8 8M105.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
@@ -307,7 +305,7 @@
   <span class="md-ellipsis">
     
   
-    Home
+    首页
   
 
     
@@ -334,7 +332,7 @@
   <span class="md-ellipsis">
     
   
-    1. Environment Setup
+    1. 环境准备
   
 
     
@@ -361,7 +359,7 @@
   <span class="md-ellipsis">
     
   
-    2. Project Configuration
+    2. 项目配置
   
 
     
@@ -388,7 +386,7 @@
   <span class="md-ellipsis">
     
   
-    3. Troubleshooting (Errors)
+    3. 故障排除 (Errors)
   
 
     
@@ -415,7 +413,34 @@
   <span class="md-ellipsis">
     
   
-    4. SSH Log
+    4. SSH 日志
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../conclusiones/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    5. 结论
   
 
     
@@ -451,7 +476,7 @@
   <span class="md-ellipsis">
     
   
-    5. Conclusions
+    🗒️. UNIX 进程控制
   
 
     
@@ -469,7 +494,7 @@
   <span class="md-ellipsis">
     
   
-    5. Conclusions
+    🗒️. UNIX 进程控制
   
 
     
@@ -481,7 +506,7 @@
       
         
 
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+<nav class="md-nav md-nav--secondary" aria-label="目录">
   
   
   
@@ -490,27 +515,27 @@
   
     <label class="md-nav__title" for="__toc">
       <span class="md-nav__icon md-icon"></span>
-      Table of contents
+      目录
     </label>
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#reflection-on-documentation" class="md-nav__link">
+  <a href="#ejercicios-practicos" class="md-nav__link">
     <span class="md-ellipsis">
       
-        📝 Reflection on Documentation
+        Ejercicios Prácticos
       
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="📝 Reflection on Documentation">
+    <nav class="md-nav" aria-label="Ejercicios Prácticos">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#why-is-documenting-so-important" class="md-nav__link">
+  <a href="#1-el-comando-yes" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Why is documenting so important?
+        1. El comando yes
       
     </span>
   </a>
@@ -518,10 +543,241 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#documentation-as-code" class="md-nav__link">
+  <a href="#2-interrupcion-con-ctrlc" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Documentation as Code
+        2. Interrupción con CTRL+C
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-redireccion-a-devnull" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. Redirección a /dev/null
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-interrupcion-nuevamente" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4. Interrupción nuevamente
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#5-ejecucion-en-segundo-plano" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5. Ejecución en Segundo Plano (&amp;)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#6-estado-de-trabajos" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6. Estado de Trabajos
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#7-terminacion-normal-kill" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        7. Terminación Normal (kill)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#8-terminacion-por-pid" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        8. Terminación por PID
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#9-suspender-procesos-ctrlz" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        9. Suspender Procesos (CTRL+Z)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#10-verificar-suspension" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        10. Verificar Suspensión
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#11-reanudar-en-primer-plano-fg" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        11. Reanudar en Primer Plano (fg)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#12-prioridad-de-procesos-nicerenice" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        12. Prioridad de Procesos (nice/renice)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#13-suspender-nuevamente" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        13. Suspender nuevamente
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#14-reanudar-en-segundo-plano-bg" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        14. Reanudar en Segundo Plano (bg)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#15-gestion-de-multiples-procesos" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        15. Gestión de Múltiples Procesos
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#16-demostracion-compleja" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        16. Demostración Compleja
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#17-visualizacion-interactiva-top-htop" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        17. Visualización Interactiva (top / htop)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#18-comando-ps-y-sus-variantes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        18. Comando ps y sus variantes
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#19-comando-pstree" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        19. Comando pstree
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#20-procesos-hijos-y-terminal-gnome-calculator" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        20. Procesos Hijos y Terminal (gnome-calculator)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#21-uso-de-nohup" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        21. Uso de nohup
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#22-independencia-total" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        22. Independencia total
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#23-redireccion-de-salida-nohup" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        23. Redirección de Salida nohup
       
     </span>
   </a>
@@ -530,117 +786,6 @@
         
       </ul>
     </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#github-pages-vs-traditional-hosting" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        🌐 GitHub Pages vs Traditional Hosting
-      
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="🌐 GitHub Pages vs Traditional Hosting">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#advantages-of-github-pages" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Advantages of GitHub Pages
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#github-pages-limitations" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        GitHub Pages Limitations
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#when-to-use-each-option" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        When to use each option?
-      
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#developed-competencies" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        🎓 Developed Competencies
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#bibliography-and-resources" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        📚 Bibliography and Resources
-      
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="📚 Bibliography and Resources">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#official-documentation" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Official Documentation
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#recommended-tutorials" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Recommended Tutorials
-      
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#closing" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        🏁 Closing
-      
-    </span>
-  </a>
   
 </li>
       
@@ -648,33 +793,6 @@
   
 </nav>
       
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../nuevo_tema/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    🗒️. UNIX Process Control
-  
-
-    
-  </span>
-  
-  
-
-      </a>
     </li>
   
 
@@ -692,7 +810,7 @@
                   <div class="md-sidebar__inner">
                     
 
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+<nav class="md-nav md-nav--secondary" aria-label="目录">
   
   
   
@@ -701,27 +819,27 @@
   
     <label class="md-nav__title" for="__toc">
       <span class="md-nav__icon md-icon"></span>
-      Table of contents
+      目录
     </label>
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#reflection-on-documentation" class="md-nav__link">
+  <a href="#ejercicios-practicos" class="md-nav__link">
     <span class="md-ellipsis">
       
-        📝 Reflection on Documentation
+        Ejercicios Prácticos
       
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="📝 Reflection on Documentation">
+    <nav class="md-nav" aria-label="Ejercicios Prácticos">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#why-is-documenting-so-important" class="md-nav__link">
+  <a href="#1-el-comando-yes" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Why is documenting so important?
+        1. El comando yes
       
     </span>
   </a>
@@ -729,10 +847,241 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#documentation-as-code" class="md-nav__link">
+  <a href="#2-interrupcion-con-ctrlc" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Documentation as Code
+        2. Interrupción con CTRL+C
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-redireccion-a-devnull" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. Redirección a /dev/null
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-interrupcion-nuevamente" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4. Interrupción nuevamente
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#5-ejecucion-en-segundo-plano" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5. Ejecución en Segundo Plano (&amp;)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#6-estado-de-trabajos" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6. Estado de Trabajos
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#7-terminacion-normal-kill" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        7. Terminación Normal (kill)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#8-terminacion-por-pid" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        8. Terminación por PID
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#9-suspender-procesos-ctrlz" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        9. Suspender Procesos (CTRL+Z)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#10-verificar-suspension" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        10. Verificar Suspensión
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#11-reanudar-en-primer-plano-fg" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        11. Reanudar en Primer Plano (fg)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#12-prioridad-de-procesos-nicerenice" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        12. Prioridad de Procesos (nice/renice)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#13-suspender-nuevamente" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        13. Suspender nuevamente
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#14-reanudar-en-segundo-plano-bg" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        14. Reanudar en Segundo Plano (bg)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#15-gestion-de-multiples-procesos" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        15. Gestión de Múltiples Procesos
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#16-demostracion-compleja" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        16. Demostración Compleja
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#17-visualizacion-interactiva-top-htop" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        17. Visualización Interactiva (top / htop)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#18-comando-ps-y-sus-variantes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        18. Comando ps y sus variantes
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#19-comando-pstree" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        19. Comando pstree
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#20-procesos-hijos-y-terminal-gnome-calculator" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        20. Procesos Hijos y Terminal (gnome-calculator)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#21-uso-de-nohup" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        21. Uso de nohup
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#22-independencia-total" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        22. Independencia total
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#23-redireccion-de-salida-nohup" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        23. Redirección de Salida nohup
       
     </span>
   </a>
@@ -741,117 +1090,6 @@
         
       </ul>
     </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#github-pages-vs-traditional-hosting" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        🌐 GitHub Pages vs Traditional Hosting
-      
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="🌐 GitHub Pages vs Traditional Hosting">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#advantages-of-github-pages" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Advantages of GitHub Pages
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#github-pages-limitations" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        GitHub Pages Limitations
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#when-to-use-each-option" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        When to use each option?
-      
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#developed-competencies" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        🎓 Developed Competencies
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#bibliography-and-resources" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        📚 Bibliography and Resources
-      
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="📚 Bibliography and Resources">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#official-documentation" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Official Documentation
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#recommended-tutorials" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Recommended Tutorials
-      
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#closing" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        🏁 Closing
-      
-    </span>
-  </a>
   
 </li>
       
@@ -875,190 +1113,114 @@
   
 
 
-<h1 id="conclusions">Conclusions</h1>
-<p>This project has been a complete practical exercise covering multiple competencies of the ASIR program. Beyond creating a simple website, I have learned about the importance of <strong>technical documentation</strong> and the <strong>Infrastructure as Code (IaC)</strong> paradigm.</p>
-<p><img alt="Conclusions" src="../../img/conclusiones.png" /></p>
+<h1 id="unix-control-de-procesos-y-tareas-tarea-personal">UNIX: Control de Procesos y Tareas / Tarea Personal</h1>
+<p><strong>Autor:</strong> Iñigo Durán Sanz</p>
+<p>Esta guía explora el manejo de procesos en sistemas UNIX/Linux, cubriendo desde la ejecución en segundo plano hasta la gestión de prioridades y señales.</p>
 <hr />
-<h2 id="reflection-on-documentation">📝 Reflection on Documentation</h2>
-<h3 id="why-is-documenting-so-important">Why is documenting so important?</h3>
-<p>Technical documentation is not an "extra", it is a fundamental part of a system administrator's work. The benefits are clear:</p>
-<p>!!! quote "Documentation is a gift you give to your future self" - <strong>Reproducibility</strong>: Being able to repeat a process months later - <strong>Collaboration</strong>: Allowing others to understand and improve your work - <strong>Debugging</strong>: Remembering what you did and why you did it - <strong>Professionalism</strong>: Demonstrating rigorous and organized work</p>
-<h3 id="documentation-as-code">Documentation as Code</h3>
-<p>This project exemplifies the concept of <strong>"Docs as Code"</strong>:</p>
-<table>
-<thead>
-<tr>
-<th>Aspect</th>
-<th>Traditional</th>
-<th>Docs as Code</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Format</td>
-<td>Word, PDF</td>
-<td>Markdown, reStructuredText</td>
-</tr>
-<tr>
-<td>Version control</td>
-<td>None</td>
-<td>Git</td>
-</tr>
-<tr>
-<td>Collaboration</td>
-<td>Send files</td>
-<td>Pull Requests</td>
-</tr>
-<tr>
-<td>Publication</td>
-<td>Manual</td>
-<td>Automatic CI/CD</td>
-</tr>
-<tr>
-<td>Hosting</td>
-<td>Own server</td>
-<td>GitHub Pages (free)</td>
-</tr>
-</tbody>
-</table>
-<details class="tip">
-<summary>Infrastructure as Code (IaC)</summary>
-<p>The same principle applies to infrastructure. Instead of configuring servers manually, configuration files are written (Terraform, Ansible, Docker) that define the desired state of the system.</p>
-<p>Advantages:</p>
+<h2 id="ejercicios-practicos">Ejercicios Prácticos</h2>
+<h3 id="1-el-comando-yes">1. El comando <code>yes</code></h3>
+<p>El comando <code>yes</code> envía una salida infinita de "yes" a la terminal.</p>
 <ul>
-<li><strong>Versionable</strong>: Complete history of changes</li>
-<li><strong>Replicable</strong>: Same configuration in any environment</li>
-<li><strong>Automatable</strong>: Deployment without manual intervention</li>
-<li><strong>Auditable</strong>: Know who changed what and when</li>
+<li><strong>Observación</strong>: Al ejecutarlo, satura la terminal y "ensucia" la pantalla con texto continuo.</li>
 </ul>
+<h3 id="2-interrupcion-con-ctrlc">2. Interrupción con CTRL+C</h3>
+<p>Podemos detener la ejecución "agresiva" del comando anterior utilizando la combinación de teclas de interrupción.</p>
+<p><img alt="Imagen 2" src="../../img/imagen_2.png" /></p>
+<h3 id="3-redireccion-a-devnull">3. Redirección a <code>/dev/null</code></h3>
+<p>Ejecutamos <code>yes &gt; /dev/null</code>.</p>
+<ul>
+<li><strong>Resultado</strong>: La pantalla ya no se llena de texto (la salida se descarta), pero la terminal sigue ocupada y no recuperamos el <em>prompt</em>.</li>
+</ul>
+<h3 id="4-interrupcion-nuevamente">4. Interrupción nuevamente</h3>
+<p>Cancelamos el proceso anterior con <code>CTRL+C</code> para recuperar el control.</p>
+<p><img alt="Imagen 4" src="../../img/imagen_4.png" /></p>
+<h3 id="5-ejecucion-en-segundo-plano">5. Ejecución en Segundo Plano (<code>&amp;</code>)</h3>
+<p>Ejecutamos <code>yes &gt; /dev/null &amp;</code>.</p>
+<ul>
+<li><strong>Resultado</strong>: El sistema nos devuelve el <em>prompt</em> inmediatamente.</li>
+<li><strong>Datos</strong>: Obtenemos el <strong>Número de Tarea</strong> y el <strong>PID</strong> (Process ID).</li>
+</ul>
+<p><img alt="Imagen 5" src="../../img/imagen_5.png" /></p>
+<h3 id="6-estado-de-trabajos">6. Estado de Trabajos</h3>
+<p>Usamos el comando <code>jobs</code> para verificar que el proceso sigue corriendo en segundo plano.</p>
+<p><img alt="Imagen 6" src="../../img/imagen_6.png" /></p>
+<h3 id="7-terminacion-normal-kill">7. Terminación Normal (<code>kill</code>)</h3>
+<p>Eliminamos el proceso usando el comando <code>kill %1</code> (o el número de tarea correspondiente) y verificamos con <code>jobs</code>.</p>
+<p><img alt="Imagen 7" src="../../img/imagen_7.png" /></p>
+<h3 id="8-terminacion-por-pid">8. Terminación por PID</h3>
+<p>Lanzamos de nuevo el proceso y esta vez lo "matamos" usando su <strong>PID</strong> específico: <code>kill &lt;PID&gt;</code>.</p>
+<p><img alt="Imagen 8" src="../../img/imagen_8.png" /></p>
+<h3 id="9-suspender-procesos-ctrlz">9. Suspender Procesos (<code>CTRL+Z</code>)</h3>
+<p>Lanzamos el proceso en primer plano y lo pausamos/suspendemos con <code>CTRL+Z</code>.</p>
+<p><img alt="Imagen 9" src="../../img/imagen_9.png" /></p>
+<h3 id="10-verificar-suspension">10. Verificar Suspensión</h3>
+<p>Comprobamos con <code>jobs</code> que el estado es "Stopped" (Detenido).</p>
+<p><img alt="Imagen 10" src="../../img/imagen_10.png" /></p>
+<h3 id="11-reanudar-en-primer-plano-fg">11. Reanudar en Primer Plano (<code>fg</code>)</h3>
+<p>Traemos la tarea suspendida al frente con el comando <code>fg</code>.</p>
+<p><img alt="Imagen 11" src="../../img/imagen_11.png" /></p>
+<h3 id="12-prioridad-de-procesos-nicerenice">12. Prioridad de Procesos (<code>nice</code>/<code>renice</code>)</h3>
+<p>Para ejecutar un proceso con menor prioridad (valor nice más alto, ej. 10), usamos <code>nice</code>. Para cambiarla en ejecución, <code>renice</code>.</p>
+<ul>
+<li><em>Nota: <code>-10</code> suele requerir privilegios de root para aumentar prioridad.</em></li>
+</ul>
+<p><img alt="Imagen 12" src="../../img/imagen_12.png" /></p>
+<h3 id="13-suspender-nuevamente">13. Suspender nuevamente</h3>
+<p>Detenemos la ejecución temporalmente con <code>CTRL+Z</code>.</p>
+<p><img alt="Imagen 13" src="../../img/imagen_13.png" /></p>
+<h3 id="14-reanudar-en-segundo-plano-bg">14. Reanudar en Segundo Plano (<code>bg</code>)</h3>
+<p>Reactivamos el proceso pero lo mantenemos en segundo plano ("Background") con <code>bg</code>.</p>
+<p><img alt="Imagen 14" src="../../img/imagen_14.png" /></p>
+<h3 id="15-gestion-de-multiples-procesos">15. Gestión de Múltiples Procesos</h3>
+<p>Repetimos la gestión (suspender, <code>bg</code>, <code>fg</code>) utilizando comandos como <code>sleep 1000</code> para tener varios procesos simples.</p>
+<p><img alt="Imagen 15" src="../../img/imagen_15.png" /></p>
+<h3 id="16-demostracion-compleja">16. Demostración Compleja</h3>
+<p>Escenario con al menos 5 procesos simultáneos: suspendiendo, reanudando y enviando señales a varios de ellos.</p>
+<p><img alt="Imagen 16" src="../../img/imagen_16.png" /></p>
+<h3 id="17-visualizacion-interactiva-top-htop">17. Visualización Interactiva (<code>top</code> / <code>htop</code>)</h3>
+<p>Uso de herramientas interactivas para ver el consumo de recursos en tiempo real.</p>
+<p><img alt="Imagen 17" src="../../img/imagen_17.png" /></p>
+<h3 id="18-comando-ps-y-sus-variantes">18. Comando <code>ps</code> y sus variantes</h3>
+<p>Uso del comando <code>ps</code> con varias combinaciones diferentes para filtrar y formatear la salida:</p>
+<details>
+<summary>Comandos ps</summary>
+<p><strong>Ejemplos:</strong></p>
+<ol>
+<li><code>ps</code></li>
+<li><code>ps aux</code></li>
+<li><code>ps -ef</code></li>
+<li><code>ps -ejH</code></li>
+<li><code>ps -t</code></li>
+<li><code>ps -ax --forest</code></li>
+<li><code>ps -e -o</code></li>
+<li><code>ps -eo</code></li>
+</ol>
 </details>
-<hr />
-<h2 id="github-pages-vs-traditional-hosting">🌐 GitHub Pages vs Traditional Hosting</h2>
-<h3 id="advantages-of-github-pages">Advantages of GitHub Pages</h3>
-<table>
-<thead>
-<tr>
-<th>Feature</th>
-<th>GitHub Pages</th>
-<th>Traditional Hosting</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><strong>Cost</strong></td>
-<td>Free</td>
-<td>Minimum 5-20€/month</td>
-</tr>
-<tr>
-<td><strong>SSL (HTTPS)</strong></td>
-<td>Automatically included</td>
-<td>Must configure it</td>
-</tr>
-<tr>
-<td><strong>CDN</strong></td>
-<td>Included (Fastly)</td>
-<td>Extra or manual</td>
-</tr>
-<tr>
-<td><strong>Maintenance</strong></td>
-<td>Zero</td>
-<td>Updates, backups...</td>
-</tr>
-<tr>
-<td><strong>Deployment</strong></td>
-<td><code>git push</code> or <code>mkdocs gh-deploy</code></td>
-<td>FTP, SSH, control panel</td>
-</tr>
-<tr>
-<td><strong>Scalability</strong></td>
-<td>Automatic</td>
-<td>Depends on plan</td>
-</tr>
-</tbody>
-</table>
-<h3 id="github-pages-limitations">GitHub Pages Limitations</h3>
-<div class="admonition warning">
-<p class="admonition-title">Not everything is perfect</p>
-</div>
-<p>GitHub Pages has some limitations to keep in mind:</p>
-<div class="language-text highlight"><pre><span></span><code>- **Static sites only**: Does not support PHP, Python backend, databases...
-- **Size limit**: Maximum 1GB per repository
-- **Bandwidth**: 100GB/month limit (more than enough for documentation)
-- **Builds per hour**: Maximum 10 builds/hour
-- **Custom domain**: Requires additional DNS configuration
-</code></pre></div>
-<h3 id="when-to-use-each-option">When to use each option?</h3>
-<div class="tabbed-set tabbed-alternate" data-tabs="1:2"><input checked="checked" id="__tabbed_1_1" name="__tabbed_1" type="radio" /><input id="__tabbed_1_2" name="__tabbed_1" type="radio" /><div class="tabbed-labels"><label for="__tabbed_1_1">Use GitHub Pages</label><label for="__tabbed_1_2">Use Traditional Hosting</label></div>
-<div class="tabbed-content">
-<div class="tabbed-block">
-<p>✅ Technical documentation</p>
-<p>✅ Portfolios and online resumes</p>
-<p>✅ Static blogs (with Jekyll, Hugo, MkDocs)</p>
-<p>✅ Open source projects</p>
-<p>✅ Simple landing pages</p>
-</div>
-<div class="tabbed-block">
-<p>✅ Dynamic web applications (stores, forums)</p>
-<p>✅ Sites with databases</p>
-<p>✅ Projects with specific server requirements</p>
-<p>✅ When you need total server control</p>
-<p>✅ For clients requiring specific SLAs</p>
-</div>
-</div>
-</div>
-<hr />
-<h2 id="developed-competencies">🎓 Developed Competencies</h2>
-<p>During this project I have practiced the following competencies of the ASIR program:</p>
+<p><img alt="Imagen 18" src="../../img/imagen_18.png" /></p>
+<h3 id="19-comando-pstree">19. Comando <code>pstree</code></h3>
+<p>Visualización del árbol de procesos para entender la jerarquía padre-hijo.</p>
+<p><img alt="Imagen 19" src="../../img/imagen_19.png" />
+<img alt="Imagen 19" src="../../img/imagen_19_1.png" />
+<img alt="Imagen 19" src="../../img/imagen_19_2.png" /></p>
+<h3 id="20-procesos-hijos-y-terminal-gnome-calculator">20. Procesos Hijos y Terminal (<code>gnome-calculator</code>)</h3>
+<p>Al lanzar <code>gnome-calculator</code> desde la terminal y cerrar esta última, la calculadora se cierra.</p>
 <ul>
-<li>[x] <strong>CLI and PowerShell</strong>: Navigation, package installation, permission management</li>
-<li>[x] <strong>Version control</strong>: Git (add, commit, push, branch)</li>
-<li>[x] <strong>Markup languages</strong>: Markdown, YAML</li>
-<li>[x] <strong>Problem solving</strong>: Error debugging, log reading</li>
-<li>[x] <strong>Cloud and hosting</strong>: GitHub Pages, conceptual DNS</li>
-<li>[x] <strong>Technical documentation</strong>: Clear writing, structure, professional format</li>
+<li><strong>Razón</strong>: La calculadora es un proceso hijo de la shell; al morir el padre, mueren los hijos (SIGHUP).</li>
 </ul>
-<hr />
-<h2 id="bibliography-and-resources">📚 Bibliography and Resources</h2>
-<h3 id="official-documentation">Official Documentation</h3>
+<p><img alt="Imagen 20" src="../../img/imagen_20.png" /></p>
+<h3 id="21-uso-de-nohup">21. Uso de <code>nohup</code></h3>
+<p>Ejecutar <code>nohup gnome-calculator</code>. Al cerrar la terminal, la calculadora <strong>sigue abierta</strong>.</p>
 <ul>
-<li><strong>MkDocs</strong>: <a href="https://www.mkdocs.org/">mkdocs.org</a></li>
-<li><strong>Material for MkDocs</strong>: <a href="https://squidfunk.github.io/mkdocs-material/">squidfunk.github.io/mkdocs-material</a></li>
-<li><strong>GitHub Pages</strong>: <a href="https://pages.github.com/">pages.github.com</a></li>
-<li><strong>Python</strong>: <a href="https://www.python.org/">python.org</a></li>
-<li><strong>Git</strong>: <a href="https://git-scm.com/doc">git-scm.com/doc</a></li>
+<li><strong>Razón</strong>: <code>nohup</code> ignora la señal de colgar (HUP).</li>
 </ul>
-<h3 id="recommended-tutorials">Recommended Tutorials</h3>
-<details class="info">
-<summary>Additional Resources</summary>
-<p><strong>Videos:</strong></p>
-<ul>
-<li><a href="https://www.youtube.com/watch?v=Q-YA_dA8C20">MkDocs Tutorial - TechWorld with Nana</a></li>
-<li><a href="https://www.youtube.com/watch?v=RGOj5yH7evk">Git and GitHub for Beginners - freeCodeCamp</a></li>
-</ul>
-<p><strong>Articles:</strong></p>
-<ul>
-<li><a href="https://realpython.com/python-project-documentation-with-mkdocs/">Getting Started with MkDocs</a></li>
-<li><a href="https://docs.github.com/en/pages">GitHub Pages Documentation</a></li>
-</ul>
-<p><strong>Tools:</strong></p>
-<ul>
-<li><a href="https://www.yamllint.com/">YAML Validator</a> - To validate YAML files</li>
-<li><a href="https://markdownlivepreview.com/">Markdown Preview</a> - To preview Markdown</li>
-</ul>
-</details>
-<hr />
-<h2 id="closing">🏁 Closing</h2>
-<div class="admonition success">
-<p class="admonition-title">Project Completed</p>
-</div>
-<p>This website is tangible proof of everything learned. From the initial Python installation to the final deployment on GitHub Pages, every step has been documented to serve as a future reference.</p>
-<div class="language-text highlight"><pre><span></span><code>The ASIR program prepares us to manage complex infrastructures, and projects like this demonstrate that even &quot;simple&quot; tools like a static site generator can teach us a lot about best practices, problem solving and professionalism.
-</code></pre></div>
-<hr />
-<div style="text-align: center; margin-top: 2rem;">
-    <p><strong>Project made for the SRI subject</strong></p>
-    <p>ASIR - ILERNA | 2026</p>
-</div>
+<p><img alt="Imagen 21" src="../../img/imagen_21.png" /></p>
+<h3 id="22-independencia-total">22. Independencia total</h3>
+<p>Con <code>nohup</code>, cerrar la aplicación (calculadora) no afecta a la terminal, y cerrar la terminal no afecta a la aplicación. Son independientes.</p>
+<h3 id="23-redireccion-de-salida-nohup">23. Redirección de Salida <code>nohup</code></h3>
+<p>Para evitar el archivo <code>nohup.out</code> por defecto y descartar la salida:
+<code>nohup gnome-calculator &gt; /dev/null 2&gt;&amp;1 &amp;</code>
+Esto redirige tanto la salida estándar como la de error a la "nada".</p>
+<p><img alt="Imagen 23" src="../../img/imagen_23.png" /></p>
 
 
 
@@ -1084,7 +1246,7 @@
           <button type="button" class="md-top md-icon" data-md-component="top" hidden>
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
-  Back to top
+  回到页面顶部
 </button>
         
       </main>
@@ -1120,7 +1282,7 @@
     
       
       
-      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["navigation.tracking", "navigation.top", "content.code.copy", "content.tabs.link"], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["navigation.tracking", "navigation.top", "content.code.copy", "content.tabs.link"], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "\u5df2\u590d\u5236", "clipboard.copy": "\u590d\u5236", "search.result.more.one": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.more.other": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 # \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.none": "\u6ca1\u6709\u627e\u5230\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.one": "\u627e\u5230 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.other": "# \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.placeholder": "\u952e\u5165\u4ee5\u5f00\u59cb\u641c\u7d22", "search.result.term.missing": "\u7f3a\u5c11", "select.version": "\u9009\u62e9\u5f53\u524d\u7248\u672c"}, "version": null}</script>
     
     
       <script src="../../assets/javascripts/bundle.79ae519e.min.js"></script>
