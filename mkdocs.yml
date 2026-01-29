@@ -105,13 +105,3 @@ nav:
 
 # Copyright
 copyright: Copyright &copy; 2026 - ASIR ILERNA
-
-# Extra para SEO (hreflang automático)
-extra:
-  alternate:
-    - name: Español
-      link: /
-      lang: es
-    - name: English
-      link: /en/
-      lang: en
