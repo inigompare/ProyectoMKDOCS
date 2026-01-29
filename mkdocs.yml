@@ -47,6 +47,20 @@ plugins:
             4. Bitácora SSH: 4. SSH Log
             5. Conclusiones: 5. Conclusions
             🗒️. Control de Procesos UNIX: 🗒️. UNIX Process Control
+        - locale: zh
+          name: 中文
+          link: /zh/
+          build: true
+          site_name: MkDocs 文档
+          site_description: 创建、配置和部署 MkDocs 站点的分步指南
+          nav_translations:
+            Inicio: 首页
+            1. Preparación del Entorno: 1. 环境准备
+            2. Configuración del Proyecto: 2. 项目配置
+            3. Troubleshooting (Errores): 3. 故障排除 (Errors)
+            4. Bitácora SSH: 4. SSH 日志
+            5. Conclusiones: 5. 结论
+            🗒️. Control de Procesos UNIX: 🗒️. UNIX 进程控制
 
 # Tema Material
 theme:
