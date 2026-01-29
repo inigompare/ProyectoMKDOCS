@@ -1,43 +1,143 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
     <url>
-         <loc>https://inigompare.github.io/ProyectoMKDOCS/</loc>
-         <lastmod>2026-01-29</lastmod>
+        <loc>https://inigompare.github.io/ProyectoMKDOCS/</loc>
+        <lastmod>2026-01-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="es" href="https://inigompare.github.io/ProyectoMKDOCS/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://inigompare.github.io/ProyectoMKDOCS/en/"/>
     </url>
     <url>
-         <loc>https://inigompare.github.io/ProyectoMKDOCS/bitacora_ssh/</loc>
-         <lastmod>2026-01-29</lastmod>
+        <loc>https://inigompare.github.io/ProyectoMKDOCS/bitacora_ssh/</loc>
+        <lastmod>2026-01-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="es" href="https://inigompare.github.io/ProyectoMKDOCS/bitacora_ssh/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://inigompare.github.io/ProyectoMKDOCS/en/bitacora_ssh/"/>
     </url>
     <url>
-         <loc>https://inigompare.github.io/ProyectoMKDOCS/conclusiones/</loc>
-         <lastmod>2026-01-29</lastmod>
+        <loc>https://inigompare.github.io/ProyectoMKDOCS/conclusiones/</loc>
+        <lastmod>2026-01-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="es" href="https://inigompare.github.io/ProyectoMKDOCS/conclusiones/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://inigompare.github.io/ProyectoMKDOCS/en/conclusiones/"/>
     </url>
     <url>
-         <loc>https://inigompare.github.io/ProyectoMKDOCS/configuracion/</loc>
-         <lastmod>2026-01-29</lastmod>
+        <loc>https://inigompare.github.io/ProyectoMKDOCS/configuracion/</loc>
+        <lastmod>2026-01-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="es" href="https://inigompare.github.io/ProyectoMKDOCS/configuracion/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://inigompare.github.io/ProyectoMKDOCS/en/configuracion/"/>
     </url>
     <url>
-         <loc>https://inigompare.github.io/ProyectoMKDOCS/estructura/</loc>
-         <lastmod>2026-01-29</lastmod>
+        <loc>https://inigompare.github.io/ProyectoMKDOCS/estructura/</loc>
+        <lastmod>2026-01-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="es" href="https://inigompare.github.io/ProyectoMKDOCS/estructura/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://inigompare.github.io/ProyectoMKDOCS/en/estructura/"/>
     </url>
     <url>
-         <loc>https://inigompare.github.io/ProyectoMKDOCS/introduccion/</loc>
-         <lastmod>2026-01-29</lastmod>
+        <loc>https://inigompare.github.io/ProyectoMKDOCS/introduccion/</loc>
+        <lastmod>2026-01-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="es" href="https://inigompare.github.io/ProyectoMKDOCS/introduccion/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://inigompare.github.io/ProyectoMKDOCS/en/introduccion/"/>
     </url>
     <url>
-         <loc>https://inigompare.github.io/ProyectoMKDOCS/nuevo_tema/</loc>
-         <lastmod>2026-01-29</lastmod>
+        <loc>https://inigompare.github.io/ProyectoMKDOCS/nuevo_tema/</loc>
+        <lastmod>2026-01-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="es" href="https://inigompare.github.io/ProyectoMKDOCS/nuevo_tema/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://inigompare.github.io/ProyectoMKDOCS/en/nuevo_tema/"/>
     </url>
     <url>
-         <loc>https://inigompare.github.io/ProyectoMKDOCS/prerrequisitos/</loc>
-         <lastmod>2026-01-29</lastmod>
+        <loc>https://inigompare.github.io/ProyectoMKDOCS/prerrequisitos/</loc>
+        <lastmod>2026-01-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="es" href="https://inigompare.github.io/ProyectoMKDOCS/prerrequisitos/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://inigompare.github.io/ProyectoMKDOCS/en/prerrequisitos/"/>
     </url>
     <url>
-         <loc>https://inigompare.github.io/ProyectoMKDOCS/problemas/</loc>
-         <lastmod>2026-01-29</lastmod>
+        <loc>https://inigompare.github.io/ProyectoMKDOCS/problemas/</loc>
+        <lastmod>2026-01-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="es" href="https://inigompare.github.io/ProyectoMKDOCS/problemas/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://inigompare.github.io/ProyectoMKDOCS/en/problemas/"/>
     </url>
     <url>
-         <loc>https://inigompare.github.io/ProyectoMKDOCS/requisitos/</loc>
-         <lastmod>2026-01-29</lastmod>
+        <loc>https://inigompare.github.io/ProyectoMKDOCS/requisitos/</loc>
+        <lastmod>2026-01-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="es" href="https://inigompare.github.io/ProyectoMKDOCS/requisitos/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://inigompare.github.io/ProyectoMKDOCS/en/requisitos/"/>
+    </url>
+    <url>
+        <loc>https://inigompare.github.io/ProyectoMKDOCS/en/</loc>
+        <lastmod>2026-01-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://inigompare.github.io/ProyectoMKDOCS/en/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://inigompare.github.io/ProyectoMKDOCS/"/>
+    </url>
+    <url>
+        <loc>https://inigompare.github.io/ProyectoMKDOCS/en/bitacora_ssh/</loc>
+        <lastmod>2026-01-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://inigompare.github.io/ProyectoMKDOCS/en/bitacora_ssh/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://inigompare.github.io/ProyectoMKDOCS/bitacora_ssh/"/>
+    </url>
+    <url>
+        <loc>https://inigompare.github.io/ProyectoMKDOCS/en/conclusiones/</loc>
+        <lastmod>2026-01-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://inigompare.github.io/ProyectoMKDOCS/en/conclusiones/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://inigompare.github.io/ProyectoMKDOCS/conclusiones/"/>
+    </url>
+    <url>
+        <loc>https://inigompare.github.io/ProyectoMKDOCS/en/configuracion/</loc>
+        <lastmod>2026-01-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://inigompare.github.io/ProyectoMKDOCS/en/configuracion/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://inigompare.github.io/ProyectoMKDOCS/configuracion/"/>
+    </url>
+    <url>
+        <loc>https://inigompare.github.io/ProyectoMKDOCS/en/estructura/</loc>
+        <lastmod>2026-01-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://inigompare.github.io/ProyectoMKDOCS/en/estructura/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://inigompare.github.io/ProyectoMKDOCS/estructura/"/>
+    </url>
+    <url>
+        <loc>https://inigompare.github.io/ProyectoMKDOCS/en/introduccion/</loc>
+        <lastmod>2026-01-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://inigompare.github.io/ProyectoMKDOCS/en/introduccion/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://inigompare.github.io/ProyectoMKDOCS/introduccion/"/>
+    </url>
+    <url>
+        <loc>https://inigompare.github.io/ProyectoMKDOCS/en/nuevo_tema/</loc>
+        <lastmod>2026-01-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://inigompare.github.io/ProyectoMKDOCS/en/nuevo_tema/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://inigompare.github.io/ProyectoMKDOCS/nuevo_tema/"/>
+    </url>
+    <url>
+        <loc>https://inigompare.github.io/ProyectoMKDOCS/en/prerrequisitos/</loc>
+        <lastmod>2026-01-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://inigompare.github.io/ProyectoMKDOCS/en/prerrequisitos/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://inigompare.github.io/ProyectoMKDOCS/prerrequisitos/"/>
+    </url>
+    <url>
+        <loc>https://inigompare.github.io/ProyectoMKDOCS/en/problemas/</loc>
+        <lastmod>2026-01-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://inigompare.github.io/ProyectoMKDOCS/en/problemas/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://inigompare.github.io/ProyectoMKDOCS/problemas/"/>
+    </url>
+    <url>
+        <loc>https://inigompare.github.io/ProyectoMKDOCS/en/requisitos/</loc>
+        <lastmod>2026-01-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://inigompare.github.io/ProyectoMKDOCS/en/requisitos/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://inigompare.github.io/ProyectoMKDOCS/requisitos/"/>
     </url>
 </urlset>

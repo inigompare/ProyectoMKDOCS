@@ -1,18 +1,18 @@
 
 <!doctype html>
-<html lang="es" class="no-js">
+<html lang="en" class="no-js">
   <head>
     
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="Guía paso a paso para crear, configurar y desplegar un sitio MkDocs">
+        <meta name="description" content="Step by step guide to create, configure and deploy an MkDocs site">
       
       
         <meta name="author" content="Iñigo Durán Sanz">
       
       
-        <link rel="canonical" href="https://inigompare.github.io/ProyectoMKDOCS/nuevo_tema/">
+        <link rel="canonical" href="https://inigompare.github.io/ProyectoMKDOCS/en/nuevo_tema/">
       
       
         <link rel="prev" href="../conclusiones/">
@@ -20,25 +20,25 @@
       
       
         
-          <link rel="alternate" href="./" hreflang="es">
+          <link rel="alternate" href="../../nuevo_tema/" hreflang="es">
         
-          <link rel="alternate" href="../en/nuevo_tema/" hreflang="en">
+          <link rel="alternate" href="./" hreflang="en">
         
       
       
-      <link rel="icon" href="../assets/images/favicon.png">
+      <link rel="icon" href="../../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.1">
     
     
       
-        <title>🗒️. Control de Procesos UNIX - Documentación MkDocs</title>
+        <title>🗒️. UNIX Process Control - MkDocs Documentation</title>
       
     
     
-      <link rel="stylesheet" href="../assets/stylesheets/main.484c7ddc.min.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/main.484c7ddc.min.css">
       
         
-        <link rel="stylesheet" href="../assets/stylesheets/palette.ab4e12ef.min.css">
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.ab4e12ef.min.css">
       
       
 
@@ -57,7 +57,7 @@
       
     
     
-    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -82,8 +82,8 @@
     <div data-md-component="skip">
       
         
-        <a href="#unix-control-de-procesos-y-tareas-tarea-personal" class="md-skip">
-          Saltar a contenido
+        <a href="#unix-process-and-task-control-personal-task" class="md-skip">
+          Skip to content
         </a>
       
     </div>
@@ -97,8 +97,8 @@
   
 
 <header class="md-header md-header--shadow" data-md-component="header">
-  <nav class="md-header__inner md-grid" aria-label="Cabecera">
-    <a href=".." title="Documentación MkDocs" class="md-header__button md-logo" aria-label="Documentación MkDocs" data-md-component="logo">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../" title="MkDocs Documentation" class="md-header__button md-logo" aria-label="MkDocs Documentation" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -112,13 +112,13 @@
       <div class="md-header__ellipsis">
         <div class="md-header__topic">
           <span class="md-ellipsis">
-            Documentación MkDocs
+            MkDocs Documentation
           </span>
         </div>
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              🗒️. Control de Procesos UNIX
+              🗒️. UNIX Process Control
             
           </span>
         </div>
@@ -158,20 +158,20 @@
       <div class="md-header__option">
   <div class="md-select">
     
-    <button class="md-header__button md-icon" aria-label="Seleccionar idioma">
+    <button class="md-header__button md-icon" aria-label="Select language">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m12.87 15.07-2.54-2.51.03-.03A17.5 17.5 0 0 0 14.07 6H17V4h-7V2H8v2H1v2h11.17C11.5 7.92 10.44 9.75 9 11.35 8.07 10.32 7.3 9.19 6.69 8h-2c.73 1.63 1.73 3.17 2.98 4.56l-5.09 5.02L4 19l5-5 3.11 3.11zM18.5 10h-2L12 22h2l1.12-3h4.75L21 22h2zm-2.62 7 1.62-4.33L19.12 17z"/></svg>
     </button>
     <div class="md-select__inner">
       <ul class="md-select__list">
         
           <li class="md-select__item">
-            <a href="./" hreflang="es" class="md-select__link">
+            <a href="../../nuevo_tema/" hreflang="es" class="md-select__link">
               Español
             </a>
           </li>
         
           <li class="md-select__item">
-            <a href="../en/nuevo_tema/" hreflang="en" class="md-select__link">
+            <a href="./" hreflang="en" class="md-select__link">
               English
             </a>
           </li>
@@ -192,16 +192,16 @@
   <label class="md-search__overlay" for="__search"></label>
   <div class="md-search__inner" role="search">
     <form class="md-search__form" name="search">
-      <input type="text" class="md-search__input" name="query" aria-label="Búsqueda" placeholder="Búsqueda" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
       <label class="md-search__icon md-icon" for="__search">
         
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
         
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
       </label>
-      <nav class="md-search__options" aria-label="Buscar">
+      <nav class="md-search__options" aria-label="Search">
         
-        <button type="reset" class="md-search__icon md-icon" title="Limpiar" aria-label="Limpiar" tabindex="-1">
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
           
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
         </button>
@@ -212,7 +212,7 @@
       <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
         <div class="md-search-result" data-md-component="search-result">
           <div class="md-search-result__meta">
-            Inicializando búsqueda
+            Initializing search
           </div>
           <ol class="md-search-result__list" role="presentation"></ol>
         </div>
@@ -224,7 +224,7 @@
     
     
       <div class="md-header__source">
-        <a href="https://github.com/inigompare/ProyectoMKDOCS" title="Ir al repositorio" class="md-source" data-md-component="source">
+        <a href="https://github.com/inigompare/ProyectoMKDOCS" title="Go to repository" class="md-source" data-md-component="source">
   <div class="md-source__icon md-icon">
     
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M173.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M252.8 8C114.1 8 8 113.3 8 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C436.2 457.8 504 362.9 504 252 504 113.3 391.5 8 252.8 8M105.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
@@ -258,19 +258,19 @@
 
 
 
-<nav class="md-nav md-nav--primary" aria-label="Navegación" data-md-level="0">
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href=".." title="Documentación MkDocs" class="md-nav__button md-logo" aria-label="Documentación MkDocs" data-md-component="logo">
+    <a href="../" title="MkDocs Documentation" class="md-nav__button md-logo" aria-label="MkDocs Documentation" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
 
     </a>
-    Documentación MkDocs
+    MkDocs Documentation
   </label>
   
     <div class="md-nav__source">
-      <a href="https://github.com/inigompare/ProyectoMKDOCS" title="Ir al repositorio" class="md-source" data-md-component="source">
+      <a href="https://github.com/inigompare/ProyectoMKDOCS" title="Go to repository" class="md-source" data-md-component="source">
   <div class="md-source__icon md-icon">
     
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M173.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M252.8 8C114.1 8 8 113.3 8 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C436.2 457.8 504 362.9 504 252 504 113.3 391.5 8 252.8 8M105.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
@@ -290,14 +290,14 @@
   
   
     <li class="md-nav__item">
-      <a href=".." class="md-nav__link">
+      <a href="../" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    Inicio
+    Home
   
 
     
@@ -324,7 +324,7 @@
   <span class="md-ellipsis">
     
   
-    1. Preparación del Entorno
+    1. Environment Setup
   
 
     
@@ -351,7 +351,7 @@
   <span class="md-ellipsis">
     
   
-    2. Configuración del Proyecto
+    2. Project Configuration
   
 
     
@@ -378,7 +378,7 @@
   <span class="md-ellipsis">
     
   
-    3. Troubleshooting (Errores)
+    3. Troubleshooting (Errors)
   
 
     
@@ -405,7 +405,7 @@
   <span class="md-ellipsis">
     
   
-    4. Bitácora SSH
+    4. SSH Log
   
 
     
@@ -432,7 +432,7 @@
   <span class="md-ellipsis">
     
   
-    5. Conclusiones
+    5. Conclusions
   
 
     
@@ -468,7 +468,7 @@
   <span class="md-ellipsis">
     
   
-    🗒️. Control de Procesos UNIX
+    🗒️. UNIX Process Control
   
 
     
@@ -486,7 +486,7 @@
   <span class="md-ellipsis">
     
   
-    🗒️. Control de Procesos UNIX
+    🗒️. UNIX Process Control
   
 
     
@@ -498,7 +498,7 @@
       
         
 
-<nav class="md-nav md-nav--secondary" aria-label="Tabla de contenidos">
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
   
   
   
@@ -507,27 +507,27 @@
   
     <label class="md-nav__title" for="__toc">
       <span class="md-nav__icon md-icon"></span>
-      Tabla de contenidos
+      Table of contents
     </label>
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#ejercicios-practicos" class="md-nav__link">
+  <a href="#practical-exercises" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Ejercicios Prácticos
+        Practical Exercises
       
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="Ejercicios Prácticos">
+    <nav class="md-nav" aria-label="Practical Exercises">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#1-el-comando-yes" class="md-nav__link">
+  <a href="#1-the-yes-command" class="md-nav__link">
     <span class="md-ellipsis">
       
-        1. El comando yes
+        1. The yes command
       
     </span>
   </a>
@@ -535,10 +535,10 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#2-interrupcion-con-ctrlc" class="md-nav__link">
+  <a href="#2-interruption-with-ctrlc" class="md-nav__link">
     <span class="md-ellipsis">
       
-        2. Interrupción con CTRL+C
+        2. Interruption with CTRL+C
       
     </span>
   </a>
@@ -546,10 +546,10 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#3-redireccion-a-devnull" class="md-nav__link">
+  <a href="#3-redirection-to-devnull" class="md-nav__link">
     <span class="md-ellipsis">
       
-        3. Redirección a /dev/null
+        3. Redirection to /dev/null
       
     </span>
   </a>
@@ -557,10 +557,10 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#4-interrupcion-nuevamente" class="md-nav__link">
+  <a href="#4-interruption-again" class="md-nav__link">
     <span class="md-ellipsis">
       
-        4. Interrupción nuevamente
+        4. Interruption again
       
     </span>
   </a>
@@ -568,10 +568,10 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#5-ejecucion-en-segundo-plano" class="md-nav__link">
+  <a href="#5-background-execution" class="md-nav__link">
     <span class="md-ellipsis">
       
-        5. Ejecución en Segundo Plano (&amp;)
+        5. Background Execution (&amp;)
       
     </span>
   </a>
@@ -579,10 +579,10 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#6-estado-de-trabajos" class="md-nav__link">
+  <a href="#6-job-status" class="md-nav__link">
     <span class="md-ellipsis">
       
-        6. Estado de Trabajos
+        6. Job Status
       
     </span>
   </a>
@@ -590,10 +590,10 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#7-terminacion-normal-kill" class="md-nav__link">
+  <a href="#7-normal-termination-kill" class="md-nav__link">
     <span class="md-ellipsis">
       
-        7. Terminación Normal (kill)
+        7. Normal Termination (kill)
       
     </span>
   </a>
@@ -601,10 +601,10 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#8-terminacion-por-pid" class="md-nav__link">
+  <a href="#8-termination-by-pid" class="md-nav__link">
     <span class="md-ellipsis">
       
-        8. Terminación por PID
+        8. Termination by PID
       
     </span>
   </a>
@@ -612,10 +612,10 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#9-suspender-procesos-ctrlz" class="md-nav__link">
+  <a href="#9-suspend-processes-ctrlz" class="md-nav__link">
     <span class="md-ellipsis">
       
-        9. Suspender Procesos (CTRL+Z)
+        9. Suspend Processes (CTRL+Z)
       
     </span>
   </a>
@@ -623,10 +623,10 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#10-verificar-suspension" class="md-nav__link">
+  <a href="#10-verify-suspension" class="md-nav__link">
     <span class="md-ellipsis">
       
-        10. Verificar Suspensión
+        10. Verify Suspension
       
     </span>
   </a>
@@ -634,10 +634,10 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#11-reanudar-en-primer-plano-fg" class="md-nav__link">
+  <a href="#11-resume-in-foreground-fg" class="md-nav__link">
     <span class="md-ellipsis">
       
-        11. Reanudar en Primer Plano (fg)
+        11. Resume in Foreground (fg)
       
     </span>
   </a>
@@ -645,10 +645,10 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#12-prioridad-de-procesos-nicerenice" class="md-nav__link">
+  <a href="#12-process-priority-nicerenice" class="md-nav__link">
     <span class="md-ellipsis">
       
-        12. Prioridad de Procesos (nice/renice)
+        12. Process Priority (nice/renice)
       
     </span>
   </a>
@@ -656,10 +656,10 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#13-suspender-nuevamente" class="md-nav__link">
+  <a href="#13-suspend-again" class="md-nav__link">
     <span class="md-ellipsis">
       
-        13. Suspender nuevamente
+        13. Suspend again
       
     </span>
   </a>
@@ -667,10 +667,10 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#14-reanudar-en-segundo-plano-bg" class="md-nav__link">
+  <a href="#14-resume-in-background-bg" class="md-nav__link">
     <span class="md-ellipsis">
       
-        14. Reanudar en Segundo Plano (bg)
+        14. Resume in Background (bg)
       
     </span>
   </a>
@@ -678,10 +678,10 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#15-gestion-de-multiples-procesos" class="md-nav__link">
+  <a href="#15-multiple-process-management" class="md-nav__link">
     <span class="md-ellipsis">
       
-        15. Gestión de Múltiples Procesos
+        15. Multiple Process Management
       
     </span>
   </a>
@@ -689,10 +689,10 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#16-demostracion-compleja" class="md-nav__link">
+  <a href="#16-complex-demonstration" class="md-nav__link">
     <span class="md-ellipsis">
       
-        16. Demostración Compleja
+        16. Complex Demonstration
       
     </span>
   </a>
@@ -700,10 +700,10 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#17-visualizacion-interactiva-top-htop" class="md-nav__link">
+  <a href="#17-interactive-visualization-top-htop" class="md-nav__link">
     <span class="md-ellipsis">
       
-        17. Visualización Interactiva (top / htop)
+        17. Interactive Visualization (top / htop)
       
     </span>
   </a>
@@ -711,10 +711,10 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#18-comando-ps-y-sus-variantes" class="md-nav__link">
+  <a href="#18-the-ps-command-and-its-variants" class="md-nav__link">
     <span class="md-ellipsis">
       
-        18. Comando ps y sus variantes
+        18. The ps command and its variants
       
     </span>
   </a>
@@ -722,10 +722,10 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#19-comando-pstree" class="md-nav__link">
+  <a href="#19-the-pstree-command" class="md-nav__link">
     <span class="md-ellipsis">
       
-        19. Comando pstree
+        19. The pstree command
       
     </span>
   </a>
@@ -733,10 +733,10 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#20-procesos-hijos-y-terminal-gnome-calculator" class="md-nav__link">
+  <a href="#20-child-processes-and-terminal-gnome-calculator" class="md-nav__link">
     <span class="md-ellipsis">
       
-        20. Procesos Hijos y Terminal (gnome-calculator)
+        20. Child Processes and Terminal (gnome-calculator)
       
     </span>
   </a>
@@ -744,10 +744,10 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#21-uso-de-nohup" class="md-nav__link">
+  <a href="#21-using-nohup" class="md-nav__link">
     <span class="md-ellipsis">
       
-        21. Uso de nohup
+        21. Using nohup
       
     </span>
   </a>
@@ -755,10 +755,10 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#22-independencia-total" class="md-nav__link">
+  <a href="#22-total-independence" class="md-nav__link">
     <span class="md-ellipsis">
       
-        22. Independencia total
+        22. Total Independence
       
     </span>
   </a>
@@ -766,10 +766,10 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#23-redireccion-de-salida-nohup" class="md-nav__link">
+  <a href="#23-nohup-output-redirection" class="md-nav__link">
     <span class="md-ellipsis">
       
-        23. Redirección de Salida nohup
+        23. nohup Output Redirection
       
     </span>
   </a>
@@ -802,7 +802,7 @@
                   <div class="md-sidebar__inner">
                     
 
-<nav class="md-nav md-nav--secondary" aria-label="Tabla de contenidos">
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
   
   
   
@@ -811,27 +811,27 @@
   
     <label class="md-nav__title" for="__toc">
       <span class="md-nav__icon md-icon"></span>
-      Tabla de contenidos
+      Table of contents
     </label>
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#ejercicios-practicos" class="md-nav__link">
+  <a href="#practical-exercises" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Ejercicios Prácticos
+        Practical Exercises
       
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="Ejercicios Prácticos">
+    <nav class="md-nav" aria-label="Practical Exercises">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#1-el-comando-yes" class="md-nav__link">
+  <a href="#1-the-yes-command" class="md-nav__link">
     <span class="md-ellipsis">
       
-        1. El comando yes
+        1. The yes command
       
     </span>
   </a>
@@ -839,10 +839,10 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#2-interrupcion-con-ctrlc" class="md-nav__link">
+  <a href="#2-interruption-with-ctrlc" class="md-nav__link">
     <span class="md-ellipsis">
       
-        2. Interrupción con CTRL+C
+        2. Interruption with CTRL+C
       
     </span>
   </a>
@@ -850,10 +850,10 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#3-redireccion-a-devnull" class="md-nav__link">
+  <a href="#3-redirection-to-devnull" class="md-nav__link">
     <span class="md-ellipsis">
       
-        3. Redirección a /dev/null
+        3. Redirection to /dev/null
       
     </span>
   </a>
@@ -861,10 +861,10 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#4-interrupcion-nuevamente" class="md-nav__link">
+  <a href="#4-interruption-again" class="md-nav__link">
     <span class="md-ellipsis">
       
-        4. Interrupción nuevamente
+        4. Interruption again
       
     </span>
   </a>
@@ -872,10 +872,10 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#5-ejecucion-en-segundo-plano" class="md-nav__link">
+  <a href="#5-background-execution" class="md-nav__link">
     <span class="md-ellipsis">
       
-        5. Ejecución en Segundo Plano (&amp;)
+        5. Background Execution (&amp;)
       
     </span>
   </a>
@@ -883,10 +883,10 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#6-estado-de-trabajos" class="md-nav__link">
+  <a href="#6-job-status" class="md-nav__link">
     <span class="md-ellipsis">
       
-        6. Estado de Trabajos
+        6. Job Status
       
     </span>
   </a>
@@ -894,10 +894,10 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#7-terminacion-normal-kill" class="md-nav__link">
+  <a href="#7-normal-termination-kill" class="md-nav__link">
     <span class="md-ellipsis">
       
-        7. Terminación Normal (kill)
+        7. Normal Termination (kill)
       
     </span>
   </a>
@@ -905,10 +905,10 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#8-terminacion-por-pid" class="md-nav__link">
+  <a href="#8-termination-by-pid" class="md-nav__link">
     <span class="md-ellipsis">
       
-        8. Terminación por PID
+        8. Termination by PID
       
     </span>
   </a>
@@ -916,10 +916,10 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#9-suspender-procesos-ctrlz" class="md-nav__link">
+  <a href="#9-suspend-processes-ctrlz" class="md-nav__link">
     <span class="md-ellipsis">
       
-        9. Suspender Procesos (CTRL+Z)
+        9. Suspend Processes (CTRL+Z)
       
     </span>
   </a>
@@ -927,10 +927,10 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#10-verificar-suspension" class="md-nav__link">
+  <a href="#10-verify-suspension" class="md-nav__link">
     <span class="md-ellipsis">
       
-        10. Verificar Suspensión
+        10. Verify Suspension
       
     </span>
   </a>
@@ -938,10 +938,10 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#11-reanudar-en-primer-plano-fg" class="md-nav__link">
+  <a href="#11-resume-in-foreground-fg" class="md-nav__link">
     <span class="md-ellipsis">
       
-        11. Reanudar en Primer Plano (fg)
+        11. Resume in Foreground (fg)
       
     </span>
   </a>
@@ -949,10 +949,10 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#12-prioridad-de-procesos-nicerenice" class="md-nav__link">
+  <a href="#12-process-priority-nicerenice" class="md-nav__link">
     <span class="md-ellipsis">
       
-        12. Prioridad de Procesos (nice/renice)
+        12. Process Priority (nice/renice)
       
     </span>
   </a>
@@ -960,10 +960,10 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#13-suspender-nuevamente" class="md-nav__link">
+  <a href="#13-suspend-again" class="md-nav__link">
     <span class="md-ellipsis">
       
-        13. Suspender nuevamente
+        13. Suspend again
       
     </span>
   </a>
@@ -971,10 +971,10 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#14-reanudar-en-segundo-plano-bg" class="md-nav__link">
+  <a href="#14-resume-in-background-bg" class="md-nav__link">
     <span class="md-ellipsis">
       
-        14. Reanudar en Segundo Plano (bg)
+        14. Resume in Background (bg)
       
     </span>
   </a>
@@ -982,10 +982,10 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#15-gestion-de-multiples-procesos" class="md-nav__link">
+  <a href="#15-multiple-process-management" class="md-nav__link">
     <span class="md-ellipsis">
       
-        15. Gestión de Múltiples Procesos
+        15. Multiple Process Management
       
     </span>
   </a>
@@ -993,10 +993,10 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#16-demostracion-compleja" class="md-nav__link">
+  <a href="#16-complex-demonstration" class="md-nav__link">
     <span class="md-ellipsis">
       
-        16. Demostración Compleja
+        16. Complex Demonstration
       
     </span>
   </a>
@@ -1004,10 +1004,10 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#17-visualizacion-interactiva-top-htop" class="md-nav__link">
+  <a href="#17-interactive-visualization-top-htop" class="md-nav__link">
     <span class="md-ellipsis">
       
-        17. Visualización Interactiva (top / htop)
+        17. Interactive Visualization (top / htop)
       
     </span>
   </a>
@@ -1015,10 +1015,10 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#18-comando-ps-y-sus-variantes" class="md-nav__link">
+  <a href="#18-the-ps-command-and-its-variants" class="md-nav__link">
     <span class="md-ellipsis">
       
-        18. Comando ps y sus variantes
+        18. The ps command and its variants
       
     </span>
   </a>
@@ -1026,10 +1026,10 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#19-comando-pstree" class="md-nav__link">
+  <a href="#19-the-pstree-command" class="md-nav__link">
     <span class="md-ellipsis">
       
-        19. Comando pstree
+        19. The pstree command
       
     </span>
   </a>
@@ -1037,10 +1037,10 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#20-procesos-hijos-y-terminal-gnome-calculator" class="md-nav__link">
+  <a href="#20-child-processes-and-terminal-gnome-calculator" class="md-nav__link">
     <span class="md-ellipsis">
       
-        20. Procesos Hijos y Terminal (gnome-calculator)
+        20. Child Processes and Terminal (gnome-calculator)
       
     </span>
   </a>
@@ -1048,10 +1048,10 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#21-uso-de-nohup" class="md-nav__link">
+  <a href="#21-using-nohup" class="md-nav__link">
     <span class="md-ellipsis">
       
-        21. Uso de nohup
+        21. Using nohup
       
     </span>
   </a>
@@ -1059,10 +1059,10 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#22-independencia-total" class="md-nav__link">
+  <a href="#22-total-independence" class="md-nav__link">
     <span class="md-ellipsis">
       
-        22. Independencia total
+        22. Total Independence
       
     </span>
   </a>
@@ -1070,10 +1070,10 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#23-redireccion-de-salida-nohup" class="md-nav__link">
+  <a href="#23-nohup-output-redirection" class="md-nav__link">
     <span class="md-ellipsis">
       
-        23. Redirección de Salida nohup
+        23. nohup Output Redirection
       
     </span>
   </a>
@@ -1105,78 +1105,78 @@
   
 
 
-<h1 id="unix-control-de-procesos-y-tareas-tarea-personal">UNIX: Control de Procesos y Tareas / Tarea Personal</h1>
-<p><strong>Autor:</strong> Iñigo Durán Sanz</p>
-<p>Esta guía explora el manejo de procesos en sistemas UNIX/Linux, cubriendo desde la ejecución en segundo plano hasta la gestión de prioridades y señales.</p>
+<h1 id="unix-process-and-task-control-personal-task">UNIX: Process and Task Control / Personal Task</h1>
+<p><strong>Author:</strong> Iñigo Durán Sanz</p>
+<p>This guide explores process management in UNIX/Linux systems, covering from background execution to priority management and signals.</p>
 <hr />
-<h2 id="ejercicios-practicos">Ejercicios Prácticos</h2>
-<h3 id="1-el-comando-yes">1. El comando <code>yes</code></h3>
-<p>El comando <code>yes</code> envía una salida infinita de "yes" a la terminal.</p>
+<h2 id="practical-exercises">Practical Exercises</h2>
+<h3 id="1-the-yes-command">1. The <code>yes</code> command</h3>
+<p>The <code>yes</code> command sends an infinite output of "yes" to the terminal.</p>
 <ul>
-<li><strong>Observación</strong>: Al ejecutarlo, satura la terminal y "ensucia" la pantalla con texto continuo.</li>
+<li><strong>Observation</strong>: When executed, it saturates the terminal and "dirties" the screen with continuous text.</li>
 </ul>
-<h3 id="2-interrupcion-con-ctrlc">2. Interrupción con CTRL+C</h3>
-<p>Podemos detener la ejecución "agresiva" del comando anterior utilizando la combinación de teclas de interrupción.</p>
-<p><img alt="Imagen 2" src="../img/imagen_2.png" /></p>
-<h3 id="3-redireccion-a-devnull">3. Redirección a <code>/dev/null</code></h3>
-<p>Ejecutamos <code>yes &gt; /dev/null</code>.</p>
+<h3 id="2-interruption-with-ctrlc">2. Interruption with CTRL+C</h3>
+<p>We can stop the "aggressive" execution of the previous command using the interrupt key combination.</p>
+<p><img alt="Image 2" src="../../img/imagen_2.png" /></p>
+<h3 id="3-redirection-to-devnull">3. Redirection to <code>/dev/null</code></h3>
+<p>We run <code>yes &gt; /dev/null</code>.</p>
 <ul>
-<li><strong>Resultado</strong>: La pantalla ya no se llena de texto (la salida se descarta), pero la terminal sigue ocupada y no recuperamos el <em>prompt</em>.</li>
+<li><strong>Result</strong>: The screen no longer fills with text (output is discarded), but the terminal remains busy and we don't get the <em>prompt</em> back.</li>
 </ul>
-<h3 id="4-interrupcion-nuevamente">4. Interrupción nuevamente</h3>
-<p>Cancelamos el proceso anterior con <code>CTRL+C</code> para recuperar el control.</p>
-<p><img alt="Imagen 4" src="../img/imagen_4.png" /></p>
-<h3 id="5-ejecucion-en-segundo-plano">5. Ejecución en Segundo Plano (<code>&amp;</code>)</h3>
-<p>Ejecutamos <code>yes &gt; /dev/null &amp;</code>.</p>
+<h3 id="4-interruption-again">4. Interruption again</h3>
+<p>We cancel the previous process with <code>CTRL+C</code> to regain control.</p>
+<p><img alt="Image 4" src="../../img/imagen_4.png" /></p>
+<h3 id="5-background-execution">5. Background Execution (<code>&amp;</code>)</h3>
+<p>We run <code>yes &gt; /dev/null &amp;</code>.</p>
 <ul>
-<li><strong>Resultado</strong>: El sistema nos devuelve el <em>prompt</em> inmediatamente.</li>
-<li><strong>Datos</strong>: Obtenemos el <strong>Número de Tarea</strong> y el <strong>PID</strong> (Process ID).</li>
+<li><strong>Result</strong>: The system returns the <em>prompt</em> immediately.</li>
+<li><strong>Data</strong>: We get the <strong>Job Number</strong> and the <strong>PID</strong> (Process ID).</li>
 </ul>
-<p><img alt="Imagen 5" src="../img/imagen_5.png" /></p>
-<h3 id="6-estado-de-trabajos">6. Estado de Trabajos</h3>
-<p>Usamos el comando <code>jobs</code> para verificar que el proceso sigue corriendo en segundo plano.</p>
-<p><img alt="Imagen 6" src="../img/imagen_6.png" /></p>
-<h3 id="7-terminacion-normal-kill">7. Terminación Normal (<code>kill</code>)</h3>
-<p>Eliminamos el proceso usando el comando <code>kill %1</code> (o el número de tarea correspondiente) y verificamos con <code>jobs</code>.</p>
-<p><img alt="Imagen 7" src="../img/imagen_7.png" /></p>
-<h3 id="8-terminacion-por-pid">8. Terminación por PID</h3>
-<p>Lanzamos de nuevo el proceso y esta vez lo "matamos" usando su <strong>PID</strong> específico: <code>kill &lt;PID&gt;</code>.</p>
-<p><img alt="Imagen 8" src="../img/imagen_8.png" /></p>
-<h3 id="9-suspender-procesos-ctrlz">9. Suspender Procesos (<code>CTRL+Z</code>)</h3>
-<p>Lanzamos el proceso en primer plano y lo pausamos/suspendemos con <code>CTRL+Z</code>.</p>
-<p><img alt="Imagen 9" src="../img/imagen_9.png" /></p>
-<h3 id="10-verificar-suspension">10. Verificar Suspensión</h3>
-<p>Comprobamos con <code>jobs</code> que el estado es "Stopped" (Detenido).</p>
-<p><img alt="Imagen 10" src="../img/imagen_10.png" /></p>
-<h3 id="11-reanudar-en-primer-plano-fg">11. Reanudar en Primer Plano (<code>fg</code>)</h3>
-<p>Traemos la tarea suspendida al frente con el comando <code>fg</code>.</p>
-<p><img alt="Imagen 11" src="../img/imagen_11.png" /></p>
-<h3 id="12-prioridad-de-procesos-nicerenice">12. Prioridad de Procesos (<code>nice</code>/<code>renice</code>)</h3>
-<p>Para ejecutar un proceso con menor prioridad (valor nice más alto, ej. 10), usamos <code>nice</code>. Para cambiarla en ejecución, <code>renice</code>.</p>
+<p><img alt="Image 5" src="../../img/imagen_5.png" /></p>
+<h3 id="6-job-status">6. Job Status</h3>
+<p>We use the <code>jobs</code> command to verify that the process is still running in the background.</p>
+<p><img alt="Image 6" src="../../img/imagen_6.png" /></p>
+<h3 id="7-normal-termination-kill">7. Normal Termination (<code>kill</code>)</h3>
+<p>We terminate the process using the <code>kill %1</code> command (or the corresponding job number) and verify with <code>jobs</code>.</p>
+<p><img alt="Image 7" src="../../img/imagen_7.png" /></p>
+<h3 id="8-termination-by-pid">8. Termination by PID</h3>
+<p>We launch the process again and this time we "kill" it using its specific <strong>PID</strong>: <code>kill &lt;PID&gt;</code>.</p>
+<p><img alt="Image 8" src="../../img/imagen_8.png" /></p>
+<h3 id="9-suspend-processes-ctrlz">9. Suspend Processes (<code>CTRL+Z</code>)</h3>
+<p>We launch the process in the foreground and pause/suspend it with <code>CTRL+Z</code>.</p>
+<p><img alt="Image 9" src="../../img/imagen_9.png" /></p>
+<h3 id="10-verify-suspension">10. Verify Suspension</h3>
+<p>We check with <code>jobs</code> that the status is "Stopped".</p>
+<p><img alt="Image 10" src="../../img/imagen_10.png" /></p>
+<h3 id="11-resume-in-foreground-fg">11. Resume in Foreground (<code>fg</code>)</h3>
+<p>We bring the suspended task to the front with the <code>fg</code> command.</p>
+<p><img alt="Image 11" src="../../img/imagen_11.png" /></p>
+<h3 id="12-process-priority-nicerenice">12. Process Priority (<code>nice</code>/<code>renice</code>)</h3>
+<p>To run a process with lower priority (higher nice value, e.g. 10), we use <code>nice</code>. To change it during execution, <code>renice</code>.</p>
 <ul>
-<li><em>Nota: <code>-10</code> suele requerir privilegios de root para aumentar prioridad.</em></li>
+<li><em>Note: <code>-10</code> usually requires root privileges to increase priority.</em></li>
 </ul>
-<p><img alt="Imagen 12" src="../img/imagen_12.png" /></p>
-<h3 id="13-suspender-nuevamente">13. Suspender nuevamente</h3>
-<p>Detenemos la ejecución temporalmente con <code>CTRL+Z</code>.</p>
-<p><img alt="Imagen 13" src="../img/imagen_13.png" /></p>
-<h3 id="14-reanudar-en-segundo-plano-bg">14. Reanudar en Segundo Plano (<code>bg</code>)</h3>
-<p>Reactivamos el proceso pero lo mantenemos en segundo plano ("Background") con <code>bg</code>.</p>
-<p><img alt="Imagen 14" src="../img/imagen_14.png" /></p>
-<h3 id="15-gestion-de-multiples-procesos">15. Gestión de Múltiples Procesos</h3>
-<p>Repetimos la gestión (suspender, <code>bg</code>, <code>fg</code>) utilizando comandos como <code>sleep 1000</code> para tener varios procesos simples.</p>
-<p><img alt="Imagen 15" src="../img/imagen_15.png" /></p>
-<h3 id="16-demostracion-compleja">16. Demostración Compleja</h3>
-<p>Escenario con al menos 5 procesos simultáneos: suspendiendo, reanudando y enviando señales a varios de ellos.</p>
-<p><img alt="Imagen 16" src="../img/imagen_16.png" /></p>
-<h3 id="17-visualizacion-interactiva-top-htop">17. Visualización Interactiva (<code>top</code> / <code>htop</code>)</h3>
-<p>Uso de herramientas interactivas para ver el consumo de recursos en tiempo real.</p>
-<p><img alt="Imagen 17" src="../img/imagen_17.png" /></p>
-<h3 id="18-comando-ps-y-sus-variantes">18. Comando <code>ps</code> y sus variantes</h3>
-<p>Uso del comando <code>ps</code> con varias combinaciones diferentes para filtrar y formatear la salida:</p>
+<p><img alt="Image 12" src="../../img/imagen_12.png" /></p>
+<h3 id="13-suspend-again">13. Suspend again</h3>
+<p>We temporarily stop the execution with <code>CTRL+Z</code>.</p>
+<p><img alt="Image 13" src="../../img/imagen_13.png" /></p>
+<h3 id="14-resume-in-background-bg">14. Resume in Background (<code>bg</code>)</h3>
+<p>We reactivate the process but keep it in the background with <code>bg</code>.</p>
+<p><img alt="Image 14" src="../../img/imagen_14.png" /></p>
+<h3 id="15-multiple-process-management">15. Multiple Process Management</h3>
+<p>We repeat the management (suspend, <code>bg</code>, <code>fg</code>) using commands like <code>sleep 1000</code> to have several simple processes.</p>
+<p><img alt="Image 15" src="../../img/imagen_15.png" /></p>
+<h3 id="16-complex-demonstration">16. Complex Demonstration</h3>
+<p>Scenario with at least 5 simultaneous processes: suspending, resuming and sending signals to several of them.</p>
+<p><img alt="Image 16" src="../../img/imagen_16.png" /></p>
+<h3 id="17-interactive-visualization-top-htop">17. Interactive Visualization (<code>top</code> / <code>htop</code>)</h3>
+<p>Use of interactive tools to view resource consumption in real time.</p>
+<p><img alt="Image 17" src="../../img/imagen_17.png" /></p>
+<h3 id="18-the-ps-command-and-its-variants">18. The <code>ps</code> command and its variants</h3>
+<p>Use of the <code>ps</code> command with various different combinations to filter and format the output:</p>
 <details>
-<summary>Comandos ps</summary>
-<p><strong>Ejemplos:</strong></p>
+<summary>ps commands</summary>
+<p><strong>Examples:</strong></p>
 <ol>
 <li><code>ps</code></li>
 <li><code>ps aux</code></li>
@@ -1188,31 +1188,31 @@
 <li><code>ps -eo</code></li>
 </ol>
 </details>
-<p><img alt="Imagen 18" src="../img/imagen_18.png" /></p>
-<h3 id="19-comando-pstree">19. Comando <code>pstree</code></h3>
-<p>Visualización del árbol de procesos para entender la jerarquía padre-hijo.</p>
-<p><img alt="Imagen 19" src="../img/imagen_19.png" />
-<img alt="Imagen 19" src="../img/imagen_19_1.png" />
-<img alt="Imagen 19" src="../img/imagen_19_2.png" /></p>
-<h3 id="20-procesos-hijos-y-terminal-gnome-calculator">20. Procesos Hijos y Terminal (<code>gnome-calculator</code>)</h3>
-<p>Al lanzar <code>gnome-calculator</code> desde la terminal y cerrar esta última, la calculadora se cierra.</p>
+<p><img alt="Image 18" src="../../img/imagen_18.png" /></p>
+<h3 id="19-the-pstree-command">19. The <code>pstree</code> command</h3>
+<p>Process tree visualization to understand the parent-child hierarchy.</p>
+<p><img alt="Image 19" src="../../img/imagen_19.png" />
+<img alt="Image 19" src="../../img/imagen_19_1.png" />
+<img alt="Image 19" src="../../img/imagen_19_2.png" /></p>
+<h3 id="20-child-processes-and-terminal-gnome-calculator">20. Child Processes and Terminal (<code>gnome-calculator</code>)</h3>
+<p>When launching <code>gnome-calculator</code> from the terminal and closing the latter, the calculator closes.</p>
 <ul>
-<li><strong>Razón</strong>: La calculadora es un proceso hijo de la shell; al morir el padre, mueren los hijos (SIGHUP).</li>
+<li><strong>Reason</strong>: The calculator is a child process of the shell; when the parent dies, the children die (SIGHUP).</li>
 </ul>
-<p><img alt="Imagen 20" src="../img/imagen_20.png" /></p>
-<h3 id="21-uso-de-nohup">21. Uso de <code>nohup</code></h3>
-<p>Ejecutar <code>nohup gnome-calculator</code>. Al cerrar la terminal, la calculadora <strong>sigue abierta</strong>.</p>
+<p><img alt="Image 20" src="../../img/imagen_20.png" /></p>
+<h3 id="21-using-nohup">21. Using <code>nohup</code></h3>
+<p>Run <code>nohup gnome-calculator</code>. When closing the terminal, the calculator <strong>remains open</strong>.</p>
 <ul>
-<li><strong>Razón</strong>: <code>nohup</code> ignora la señal de colgar (HUP).</li>
+<li><strong>Reason</strong>: <code>nohup</code> ignores the hangup signal (HUP).</li>
 </ul>
-<p><img alt="Imagen 21" src="../img/imagen_21.png" /></p>
-<h3 id="22-independencia-total">22. Independencia total</h3>
-<p>Con <code>nohup</code>, cerrar la aplicación (calculadora) no afecta a la terminal, y cerrar la terminal no afecta a la aplicación. Son independientes.</p>
-<h3 id="23-redireccion-de-salida-nohup">23. Redirección de Salida <code>nohup</code></h3>
-<p>Para evitar el archivo <code>nohup.out</code> por defecto y descartar la salida:
+<p><img alt="Image 21" src="../../img/imagen_21.png" /></p>
+<h3 id="22-total-independence">22. Total Independence</h3>
+<p>With <code>nohup</code>, closing the application (calculator) does not affect the terminal, and closing the terminal does not affect the application. They are independent.</p>
+<h3 id="23-nohup-output-redirection">23. <code>nohup</code> Output Redirection</h3>
+<p>To avoid the default <code>nohup.out</code> file and discard the output:
 <code>nohup gnome-calculator &gt; /dev/null 2&gt;&amp;1 &amp;</code>
-Esto redirige tanto la salida estándar como la de error a la "nada".</p>
-<p><img alt="Imagen 23" src="../img/imagen_23.png" /></p>
+This redirects both standard output and error to "nothing".</p>
+<p><img alt="Image 23" src="../../img/imagen_23.png" /></p>
 
 
 
@@ -1238,7 +1238,7 @@ Esto redirige tanto la salida estándar como la de error a la "nada".</p>
           <button type="button" class="md-top md-icon" data-md-component="top" hidden>
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
-  Volver al principio
+  Back to top
 </button>
         
       </main>
@@ -1274,10 +1274,10 @@ Esto redirige tanto la salida estándar como la de error a la "nada".</p>
     
       
       
-      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": ["navigation.tracking", "navigation.top", "content.code.copy", "content.tabs.link"], "search": "../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copiado al portapapeles", "clipboard.copy": "Copiar al portapapeles", "search.result.more.one": "1 m\u00e1s en esta p\u00e1gina", "search.result.more.other": "# m\u00e1s en esta p\u00e1gina", "search.result.none": "No se encontraron documentos", "search.result.one": "1 documento encontrado", "search.result.other": "# documentos encontrados", "search.result.placeholder": "Teclee para comenzar b\u00fasqueda", "search.result.term.missing": "Falta", "select.version": "Seleccionar versi\u00f3n"}, "version": null}</script>
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["navigation.tracking", "navigation.top", "content.code.copy", "content.tabs.link"], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
     
     
-      <script src="../assets/javascripts/bundle.79ae519e.min.js"></script>
+      <script src="../../assets/javascripts/bundle.79ae519e.min.js"></script>
       
     
   </body>
