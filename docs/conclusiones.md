@@ -27,7 +27,8 @@ Este proyecto ejemplifica el concepto de **"Docs as Code"**:
 | Hosting              | Servidor propio | GitHub Pages (gratis)      |
 
 ??? tip "Infrastructure as Code (IaC)"
-El mismo principio se aplica a la infraestructura. En lugar de configurar servidores manualmente, se escriben archivos de configuración (Terraform, Ansible, Docker) que definen el estado deseado del sistema.
+
+    El mismo principio se aplica a la infraestructura. En lugar de configurar servidores manualmente, se escriben archivos de configuración (Terraform, Ansible, Docker) que definen el estado deseado del sistema.
 
     Ventajas:
 
