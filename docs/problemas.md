@@ -31,9 +31,9 @@ Acceso denegado: 'C:\Program Files\Python312\Lib\site-packages\...'
 ### Análisis del Problema
 
 Este error ocurre porque Windows protege las carpetas del sistema
-(como `C:\Program Files\`) y requiere **permisos de
-administrador** para modificarlas. Al instalar paquetes de Python
-de forma global, `pip` intenta escribir en estas carpetas protegidas.
+(como `C:\Program Files\`) y requiere **permisos de administrador**
+para modificarlas. Al instalar paquetes de Python de forma global,
+ `pip` intenta escribir en estas carpetas protegidas.
 
 ### Solución
 
@@ -74,10 +74,9 @@ de forma global, `pip` intenta escribir en estas carpetas protegidas.
     ```
 
 ??? tip "Consejo para VS Code"
-Si usas VS Code, puedes configurar el terminal integrado para que abra
-PowerShell con permisos de administrador por defecto. Sinembargo,
-esto no es recomendable por seguridad. Es mejor abrir una terminal externa
-cuando necesites permisos elevados.
+Si usas VS Code, puedes configurar el terminal integrado para que abra PowerShell
+ con permisos de administrador por defecto. Sinembargo, esto no es recomendable
+ por seguridad. Es mejor abrir una terminal externa cuando necesites permisos elevados.
 
 ---
 
@@ -85,8 +84,8 @@ cuando necesites permisos elevados.
 
 ### Descripción del Error
 
-Al ejecutar `mkdocs serve`, el sistema mostraba un error de parsing en
-el archivo de configuración:
+Al ejecutar `mkdocs serve`, el sistema mostraba un error de parsing
+en el archivo de configuración:
 
 !!! failure "Error: YAML Syntax Error"
 `     ERROR   -  Config file 'mkdocs.yml' could not be loaded:
