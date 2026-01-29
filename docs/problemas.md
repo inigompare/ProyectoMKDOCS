@@ -92,7 +92,8 @@ Al ejecutar `mkdocs serve`, el sistema mostraba un error de parsing en el archiv
 
 ### Análisis del Problema
 
-Revisando el archivo `mkdocs.yml`, descubrí que había cometido un error grave: **había mezclado comandos de SSH y configuración
+Revisando el archivo `mkdocs.yml`, descubrí que había cometido un error grave: **había
+mezclado comandos de SSH y configuración
 YAML en el mismo archivo**. Además, la indentación era inconsistente.
 
 El archivo corrupto se veía así:
